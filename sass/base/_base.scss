@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
+
+.page-body {
+    font-family: $primary-font;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    font-weight: 400;
+    letter-spacing: $main-letter-spacing;
+}
+
+.hero,
+.page-footer {
+    background-color: $primary-bg-color;
+}
+
+.second-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: $main-letter-spacing;
+}
+
+.section-services,
+.section-team,
+.section-clients,
+.section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
